@@ -3,6 +3,8 @@ class Shape {
     constructor(color) {
         this.color = color;
     }
+    logfile() {
+    }
 }
 class Circle extends Shape {
     constructor(raduis, color) {
